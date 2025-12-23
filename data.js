@@ -119,6 +119,14 @@ function initDatabase() {
         password: "123",
         groupId: 1,
       },
+      {
+        department: "Кафедра ИТ",
+        id: 2,
+        login: "teacher",
+        name:"Петров П.П.",
+        password: "123",
+        role: "teacher",
+      }      
     ];
     localStorage.setItem("users", JSON.stringify(initialUsers));
   }
